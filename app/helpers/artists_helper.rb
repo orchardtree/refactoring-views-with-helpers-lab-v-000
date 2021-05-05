@@ -7,7 +7,7 @@ module ArtistsHelper
     if true == false
       link_to song.artist_name, artist_path(song.artist_id)
     else
-      link_to "Edit song to identify artist.", song_path(song)
+      link_to "Edit song to identify artist.", song_edit_path(song)
     end
   end
 end
