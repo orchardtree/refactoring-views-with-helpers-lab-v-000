@@ -10,7 +10,4 @@ module SongsHelper
       "link_to artist_name, artist_path(song.artist_id)"
     end
   end
-
-
-
 end
