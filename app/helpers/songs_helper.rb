@@ -4,6 +4,6 @@ module SongsHelper
   #If an artist is not associated with the song (a.k.a. 'else'), return a link to the song's edit page, with a link text of "Add Artist"
 
   def display_artist(song)
-    puts song.name
+    song.artist_name
   end
 end
