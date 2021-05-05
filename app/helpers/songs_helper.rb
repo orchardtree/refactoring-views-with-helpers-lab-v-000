@@ -7,7 +7,7 @@ module SongsHelper
     if song.artist_name == nil
 
     else
-      link_to artist_name, artist_path(song.artist_id)
+      "link_to artist_name, artist_path(song.artist_id)"
     end
   end
 
